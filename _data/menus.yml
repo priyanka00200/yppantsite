@@ -1,0 +1,12 @@
+# Navigation menu
+default:
+  en:
+    - title: Home
+      url: /en/
+    - title: About US
+      url: /en/generic/
+    - title: Contact
+      url: /en/
+    - title: Vitae
+      url: /en/vitae
+     

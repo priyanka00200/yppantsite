@@ -1,0 +1,114 @@
+# Site settings
+title: Dr. Y.P. Pant Foundation
+description: 
+
+# Contact information
+street_address: Kalikasthan
+city: Kathmandu
+state: 
+zip_code: 46400
+country: Nepal
+name: 
+phone: (977) 01451029
+email: yppantfoundation@gmail.com
+
+# Social settings
+500px:
+  url:
+  label:
+facebook:
+  url:https://www.facebook.com/profile.php?id=100085768760977 
+  label:
+github:
+  url:https://github.com/yppant/yppant.github.io
+  label: 
+  label:
+gmail:
+  url: https://mail.google.com/mail/u/2/
+  label:
+instagram:
+  url: 
+  label:
+linkedin:
+  url:
+  label:
+medium:
+  url: 
+  label:
+pinterest:
+  url:
+  label:
+slack:
+  url:
+  label:
+snapchat:
+  url: 
+  label:
+twitter:
+  url: 
+  label:
+
+# Optional elements
+logo: 
+favicon: 
+legal_terms:
+  url: /en/legal-terms/
+privacy_policy:
+  url: /en/privacy-policy/
+  third_party:
+    hosting: github
+
+# Recaptcha in forms
+recaptcha:
+  sitekey: 6LfMccgUAAAAAJcASCBTwXpeEXw7qjC-KkqjpsYV
+  secretkey: 6LfMccgUAAAAAEYb9GfycbY2FQR_EcEypQFG1_32
+
+# Collections
+collections:
+  redirects:
+    output: true
+    permalink: /:path/
+
+# Default settings
+defaults:
+  -
+    scope:
+      type: "redirects"
+    values:
+      layout: "redirect"
+      lang: "x-default"
+  -
+    scope:
+      path: ""
+    values:
+      menu: default
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+  -
+    scope:
+      path: "fr"
+    values:
+      lang: "fr"
+
+# Build settings
+permalink: pretty
+markdown: kramdown
+sass:
+  sourcemap: never
+  style: compressed
+plugins:
+  - jekyll-seo-tag
+
+# Publication settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://127.0.0.1:4000"  # the base hostname & protocol for your site, e.g. http://example.com
+
+author : Priyanka Panta
+copyright:
+  holder: Untitled
+  license: CC0 BY-NC-SA
+
+# Exclude from processing

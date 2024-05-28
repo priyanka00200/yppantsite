@@ -1,0 +1,13 @@
+features:
+  en:
+    id: features
+    title: >-
+      Erat lacinia
+    features:
+      - class: >-
+          col-2 col-4-medium col-12-small
+        target_url: >-
+          /en/vitae
+        icon: >-
+          certs icon-ifgmono
+        
